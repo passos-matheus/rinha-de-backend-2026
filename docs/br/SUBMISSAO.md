@@ -74,9 +74,11 @@ Sobre o campo **open_to_work**: A Rinha já ajudou muita gente profissionalmente
 
 ## Execução do teste
 
-Para que seu backend de fato passe pelo teste, é necessário abrir uma [issue](https://github.com/zanfranceschi/rinha-de-backend-2026/issues) colocando `rinha/test` na descrição. Se você tiver mais de uma submissão, informe também o `id` – por exemplo, `rinha/test ana-experimental`.
+Para que seu backend de fato passe pelo teste, é necessário abrir uma [issue](https://github.com/zanfranceschi/rinha-de-backend-2026/issues/new/choose) usando o template **Submissão (PT-BR)** (ou **Submission (EN)**). O template já vem com `rinha/test` na descrição e uma checagem das regras obrigatórias (limites de CPU/memória, porta 9999, linux/amd64, bridge, lei Gabriel-2025 do load-balancer, etc.). Se você tiver mais de uma submissão, informe também o `id` na linha do `rinha/test` – por exemplo, `rinha/test ana-experimental`.
 
-Essa edição da Rinha de Backend conta com uma engine que varre as issues abertas com essa descrição, executa os testes, posta o resultado dos testes (ou erro) em forma de comentário e fecha a issue. Para submeter seu backend a um novo teste, basta reabrir a issue ou abrir uma nova. É recomendado que reabra a mesma issue para que as comparações fiquem mais fáceis de serem feitas com versões anteriores do seu backend.
+> Reserve o template de submissão apenas para rodar o teste. Para reportar bugs, tirar dúvidas ou sugerir melhorias, use **Open a blank issue** em vez do template.
+
+Essa edição da Rinha de Backend conta com uma engine que varre as issues abertas com `rinha/test` na descrição, executa os testes, posta o resultado (ou erro) em forma de comentário e fecha a issue. Para submeter seu backend a um novo teste, basta reabrir a issue ou abrir uma nova. É recomendado reabrir a mesma issue para que as comparações fiquem mais fáceis de serem feitas com versões anteriores do seu backend.
 
 ![alt text](open-issue.png)
 

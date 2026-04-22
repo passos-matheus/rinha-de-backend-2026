@@ -74,9 +74,11 @@ About the **open_to_work** field: Rinha has already helped many people professio
 
 ## Test Execution
 
-For your backend to actually go through the test, you must open an [issue](https://github.com/zanfranceschi/rinha-de-backend-2026/issues) with `rinha/test` in the description. If you have more than one submission, also provide the `id` – for example, `rinha/test ana-experimental`.
+For your backend to actually go through the test, you must open an [issue](https://github.com/zanfranceschi/rinha-de-backend-2026/issues/new/choose) using the **Submission (EN)** template (or **Submissão (PT-BR)**). The template already ships with `rinha/test` in the description and a checklist of the required rules (CPU/memory limits, port 9999, linux/amd64, bridge, the Gabriel-2025 load-balancer law, etc.). If you have more than one submission, also provide the `id` on the `rinha/test` line – for example, `rinha/test ana-experimental`.
 
-This Rinha de Backend edition has an engine that scans open issues with this description, runs the tests, posts the test result (or error) as a comment, and closes the issue. To resubmit your backend for a new test, just reopen the issue or open a new one. It's recommended to reopen the same issue so that comparisons with previous versions of your backend are easier to make.
+> Use the submission template only to run the test. For bug reports, questions or suggestions, pick **Open a blank issue** instead of the template.
+
+This Rinha de Backend edition has an engine that scans open issues whose description contains `rinha/test`, runs the tests, posts the result (or error) as a comment, and closes the issue. To resubmit your backend for a new test, just reopen the issue or open a new one. It's recommended to reopen the same issue so comparisons with previous versions of your backend are easier to make.
 
 ![alt text](../br/open-issue.png)
 
